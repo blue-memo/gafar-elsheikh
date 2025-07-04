@@ -14,7 +14,22 @@
   --line-color: #00000038;
   --font-family: "Alexandria", sans-serif;
 }
-
+::-webkit-scrollbar{
+    border-radius: 1000px;
+    background: #00002a;
+    height: 3px;
+    width: 5px;
+}
+::-webkit-scrollbar-corner{
+    opacity: 0;
+}
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    background: linear-gradient(#002, var(--main-color), #002);
+}
+::-webkit-scrollbar-corner{
+    opacity: 0;
+}
 body.dark-mode {
   --main-color: #ffa600;
 }
