@@ -473,7 +473,7 @@ header ul::-webkit-scrollbar{
   opacity: 0
 }
 header ul .btn{
-  background-color: #f1482b;
+  background-color: var(--main-color);
   color: #FFF;
   border-radius: 5px;
 }
