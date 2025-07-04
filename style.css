@@ -24,6 +24,7 @@ body.dark-mode {
   text-decoration: none;
   font-family: var(--font-family);
   list-style-type: none;
+  transition: 0.20s;
 }
 
 body {
