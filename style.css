@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
 
 :root {
-  --main-color: #f56046;
+  --main-color: #0084ff;
   --hover-color: #ffa600;
   --light-bg: #f8f8f8;
   --dark-bg: #11131f;
@@ -530,7 +530,7 @@ body.dark-mode .hero .field svg{
 }
 .hero .name-title{
   margin-top: 20px;
-  color: #f1482b;
+  color: var(--main-color);
   font-size: 60px;
 }
 body.dark-mode .hero .name-title {
@@ -565,7 +565,7 @@ body.dark-mode .hero .name-title {
   height: 50px;
   padding: 7px;
   border: none;
-  background: linear-gradient(to top right, #eb7864, #f52222);
+  background: linear-gradient(to top right, #0084ff, #0400ff);
   color: #FFF;
   font-size: 22px;
   margin-top: 20px;
@@ -661,13 +661,4 @@ body.dark-mode .feature:hover .icon svg{
 body.dark-mode .feature:hover .feature-content{
   color: #FFF;
   background-color: var(--main-color);
-}
-
-@media(max-width:445px){
-    .hero h1{
-        font-size: 50px !important;
-    }
-    .hero h4{
-        font-size: 17px !important
-    }
 }
