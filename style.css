@@ -47,7 +47,7 @@ body.dark-mode header ul a {
 }
 
 .main {
-  margin-top: 100px;
+  margin-top: 91px;
 }
 
 header {
@@ -60,7 +60,7 @@ header {
   width: 100%;
   top: 0;
   direction: rtl;
-  border-bottom: 1px solid var(--border-color);
+  box-shadow:  0 0 20px #0000002c;
   position: fixed;
   z-index: 999999999 !important
 }
@@ -574,7 +574,7 @@ body.dark-mode .hero .name-title {
   border-radius: 10px;
 }
 body.dark-mode .hero button{
-  background: linear-gradient(to top right, #ffa600, #ffd57b);
+  background: linear-gradient(to top right, #eeff00, #ffa600, #eeff00);
 }
 .social-icons{
   display: flex;
